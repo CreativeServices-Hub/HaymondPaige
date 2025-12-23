@@ -190,14 +190,14 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.EditedHeadshotPaige();
-	this.instance.setTransform(770,-5,0.6893,0.6893);
+	this.instance.setTransform(770,35,0.6893,0.6893);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(770,-5,401.9000000000001,386);
+p.nominalBounds = new cjs.Rectangle(770,35,401.9000000000001,386);
 
 
 (lib.Symbol8 = function(mode,startPosition,loop,reversed) {
@@ -371,13 +371,14 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.HaymondLF_0003s_0009_JohnHaymond();
+	this.instance.setTransform(-5,40);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,1280,418);
+p.nominalBounds = new cjs.Rectangle(-5,40,1280,418);
 
 
 // stage content:
@@ -537,7 +538,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(564.5,204,766.5,609);
+p.nominalBounds = new cjs.Rectangle(564.5,205,766.5,648);
 // library properties:
 lib.properties = {
 	id: 'E4AF93DE01F642769A1F7C0573310EDD',
