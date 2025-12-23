@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"1280x100_atlas_1", frames: [[0,0,1280,100],[0,102,1280,100],[0,204,1280,100],[0,306,1280,100],[0,408,1280,100],[0,510,1280,100],[0,612,1280,100],[0,714,1280,100],[0,816,1280,100]]}
+		{name:"1280x100_atlas_1", frames: [[0,0,583,560],[585,0,1280,100],[585,102,1280,100],[585,204,1280,100],[585,306,1280,100],[585,408,1280,100],[585,510,1280,100],[0,612,1280,100],[0,714,1280,100],[0,816,1280,100]]}
 ];
 
 
@@ -27,65 +27,72 @@ lib.ssMetadata = [
 
 
 
-(lib._1280x100_1 = function() {
+(lib.EditedHeadshotPaige = function() {
 	this.initialize(ss["1280x100_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.RogersandHolland_0000s_0000_9cdb952fa9a54dd189692d165925a3be = function() {
+(lib.HaymondLF_0000s_0000_GradientFill1 = function() {
 	this.initialize(ss["1280x100_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.RogersandHolland_0000s_0000s_0000_ShopNow = function() {
+(lib.HaymondLF_0000s_0000s_0000_LEARNMOREpngcopy = function() {
 	this.initialize(ss["1280x100_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.RogersandHolland_0000s_0000s_0001_Rectangle1 = function() {
+(lib.HaymondLF_0000s_0000s_0001_Rectangle2copypngcopy = function() {
 	this.initialize(ss["1280x100_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.RogersandHolland_0000s_0005_fallpromoHPHerodesktop = function() {
+(lib.HaymondLF_0000s_0001s_0000_LEARNMORE = function() {
 	this.initialize(ss["1280x100_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.RogersandHolland_0001s_0001_ExactlyWhatYouNeed = function() {
+(lib.HaymondLF_0000s_0001s_0001_Rectangle2 = function() {
 	this.initialize(ss["1280x100_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.RogersandHolland_0001s_0002_ThisHolidaySeasonLetUsHelpYouFind = function() {
+(lib.HaymondLF_0000s_0002_logo = function() {
 	this.initialize(ss["1280x100_atlas_1"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.RogersandHolland_0001s_0004_Layer8 = function() {
+(lib.HaymondLF_0000s_0002s_0000_Rectangle1 = function() {
 	this.initialize(ss["1280x100_atlas_1"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.RogersandHolland_0001s_0005_EndorsedbyCourtneyCroninESPNReporter = function() {
+(lib.HaymondLF_0000s_0002s_0001_Haymondlawhasrecoveredoverabilliondollarsfortheirclie = function() {
 	this.initialize(ss["1280x100_atlas_1"]);
 	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.HaymondLF_0002s_0001_JohnHaymond = function() {
+	this.initialize(ss["1280x100_atlas_1"]);
+	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -102,15 +109,16 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.RogersandHolland_0001s_0001_ExactlyWhatYouNeed();
-	this.instance.setTransform(0,1);
+	this.instance = new lib.HaymondLF_0000s_0000s_0000_LEARNMOREpngcopy();
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+	this.instance_1 = new lib.HaymondLF_0000s_0000s_0001_Rectangle2copypngcopy();
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,1,1280,100);
+p.nominalBounds = new cjs.Rectangle(0,0,1280,100);
 
 
 (lib.Symbol2 = function(mode,startPosition,loop,reversed) {
@@ -125,9 +133,11 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.RogersandHolland_0001s_0002_ThisHolidaySeasonLetUsHelpYouFind();
+	this.instance = new lib.HaymondLF_0000s_0001s_0000_LEARNMORE();
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+	this.instance_1 = new lib.HaymondLF_0000s_0001s_0001_Rectangle2();
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
@@ -147,11 +157,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.RogersandHolland_0000s_0000s_0000_ShopNow();
+	this.instance = new lib.HaymondLF_0000s_0002s_0000_Rectangle1();
 
-	this.instance_1 = new lib.RogersandHolland_0000s_0000s_0001_Rectangle1();
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
@@ -171,53 +179,107 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
+	// Layer_6 (mask)
+	var mask = new cjs.Shape();
+	mask._off = true;
+	var mask_graphics_0 = new cjs.Graphics().p("AzDGQIAAsfMAmHAAAIAAMfg");
+	var mask_graphics_30 = new cjs.Graphics().p("AzDGQIAAsfMAmHAAAIAAMfg");
+	var mask_graphics_31 = new cjs.Graphics().p("AzDGQIAAsfMAmHAAAIAAMfg");
+	var mask_graphics_32 = new cjs.Graphics().p("AzDGQIAAsfMAmHAAAIAAMfg");
+	var mask_graphics_33 = new cjs.Graphics().p("AzDGQIAAsfMAmHAAAIAAMfg");
+	var mask_graphics_34 = new cjs.Graphics().p("AzDGQIAAsfMAmHAAAIAAMfg");
+	var mask_graphics_35 = new cjs.Graphics().p("AzDGQIAAsfMAmHAAAIAAMfg");
+	var mask_graphics_36 = new cjs.Graphics().p("AzDGQIAAsfMAmHAAAIAAMfg");
+	var mask_graphics_37 = new cjs.Graphics().p("AzDGQIAAsfMAmHAAAIAAMfg");
+	var mask_graphics_38 = new cjs.Graphics().p("AzDGQIAAsfMAmHAAAIAAMfg");
+	var mask_graphics_39 = new cjs.Graphics().p("AzDGQIAAsfMAmHAAAIAAMfg");
+	var mask_graphics_40 = new cjs.Graphics().p("AzDGQIAAsfMAmHAAAIAAMfg");
+	var mask_graphics_41 = new cjs.Graphics().p("AzDGQIAAsfMAmHAAAIAAMfg");
+	var mask_graphics_42 = new cjs.Graphics().p("AzDGQIAAsfMAmHAAAIAAMfg");
+	var mask_graphics_43 = new cjs.Graphics().p("AzDGQIAAsfMAmHAAAIAAMfg");
+	var mask_graphics_44 = new cjs.Graphics().p("AzDGQIAAsfMAmHAAAIAAMfg");
+	var mask_graphics_45 = new cjs.Graphics().p("AzDGQIAAsfMAmHAAAIAAMfg");
+	var mask_graphics_46 = new cjs.Graphics().p("AzDGQIAAsfMAmHAAAIAAMfg");
+	var mask_graphics_47 = new cjs.Graphics().p("AzDGQIAAsfMAmHAAAIAAMfg");
+	var mask_graphics_60 = new cjs.Graphics().p("A0fmCMAlegG8IDhTBMgleAG8g");
+	var mask_graphics_61 = new cjs.Graphics().p("AxZmnIfSlyIDhTBI/SFyg");
+	var mask_graphics_62 = new cjs.Graphics().p("AuqnHIZ0kyIDhTBI50Eyg");
+	var mask_graphics_63 = new cjs.Graphics().p("AsRnkIVCj4IDhTBI1CD4g");
+	var mask_graphics_64 = new cjs.Graphics().p("AqNn8IQ6jIIDhTBIw6DIg");
+	var mask_graphics_65 = new cjs.Graphics().p("AoboRINWieIDhTBItWCeg");
+	var mask_graphics_66 = new cjs.Graphics().p("Am7ojIKWh6IDhTBIqWB6g");
+	var mask_graphics_67 = new cjs.Graphics().p("AlqoyIH0hcIDhTBIn0Bcg");
+	var mask_graphics_68 = new cjs.Graphics().p("Akpo+IFyhEIDhTBIlyBEg");
+	var mask_graphics_69 = new cjs.Graphics().p("Aj0pIIEIgwIDhTBIkIAwg");
+	var mask_graphics_70 = new cjs.Graphics().p("AjLpPIC3giIDgTBIi3Aig");
+	var mask_graphics_71 = new cjs.Graphics().p("AispVIB5gWIDgTBIh5AWg");
+	var mask_graphics_72 = new cjs.Graphics().p("AiWpZIBNgOIDgTBIhNAOg");
+	var mask_graphics_73 = new cjs.Graphics().p("AiHpcIAwgIIDfTBIgwAIg");
+	var mask_graphics_74 = new cjs.Graphics().p("Ah/pdIAfgGIDgTBIgfAGg");
+	var mask_graphics_75 = new cjs.Graphics().p("Ah6peIAVgEIDgTBIgVAEg");
+	var mask_graphics_76 = new cjs.Graphics().p("Ah4peIARgEIDgTBIgRAEg");
+	var mask_graphics_77 = new cjs.Graphics().p("Ah4peIARgEIDgTBIgRAEg");
+
+	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:mask_graphics_0,x:1056.9749,y:49.05}).wait(30).to({graphics:mask_graphics_30,x:812.975,y:49.05}).wait(1).to({graphics:mask_graphics_31,x:853.5506,y:49.05}).wait(1).to({graphics:mask_graphics_32,x:889.3584,y:49.05}).wait(1).to({graphics:mask_graphics_33,x:920.6964,y:49.05}).wait(1).to({graphics:mask_graphics_34,x:947.8629,y:49.05}).wait(1).to({graphics:mask_graphics_35,x:971.1554,y:49.05}).wait(1).to({graphics:mask_graphics_36,x:990.8721,y:49.05}).wait(1).to({graphics:mask_graphics_37,x:1007.3106,y:49.05}).wait(1).to({graphics:mask_graphics_38,x:1020.7697,y:49.05}).wait(1).to({graphics:mask_graphics_39,x:1031.5468,y:49.05}).wait(1).to({graphics:mask_graphics_40,x:1039.9401,y:49.05}).wait(1).to({graphics:mask_graphics_41,x:1046.2473,y:49.05}).wait(1).to({graphics:mask_graphics_42,x:1050.7671,y:49.05}).wait(1).to({graphics:mask_graphics_43,x:1053.7965,y:49.05}).wait(1).to({graphics:mask_graphics_44,x:1055.6339,y:49.05}).wait(1).to({graphics:mask_graphics_45,x:1056.5775,y:49.05}).wait(1).to({graphics:mask_graphics_46,x:1056.9254,y:49.05}).wait(1).to({graphics:mask_graphics_47,x:1056.9749,y:49.05}).wait(13).to({graphics:mask_graphics_60,x:1056.9434,y:48.9002}).wait(1).to({graphics:mask_graphics_61,x:1056.9479,y:48.9069}).wait(1).to({graphics:mask_graphics_62,x:1056.9519,y:48.9128}).wait(1).to({graphics:mask_graphics_63,x:1056.9551,y:48.9182}).wait(1).to({graphics:mask_graphics_64,x:1056.9582,y:48.9227}).wait(1).to({graphics:mask_graphics_65,x:1056.9609,y:48.9267}).wait(1).to({graphics:mask_graphics_66,x:1056.9632,y:48.9299}).wait(1).to({graphics:mask_graphics_67,x:1056.965,y:48.9326}).wait(1).to({graphics:mask_graphics_68,x:1056.9663,y:48.9353}).wait(1).to({graphics:mask_graphics_69,x:1056.9677,y:48.9366}).wait(1).to({graphics:mask_graphics_70,x:1056.9691,y:48.9384}).wait(1).to({graphics:mask_graphics_71,x:1056.9695,y:48.9397}).wait(1).to({graphics:mask_graphics_72,x:1056.9699,y:48.9402}).wait(1).to({graphics:mask_graphics_73,x:1056.9704,y:48.9407}).wait(1).to({graphics:mask_graphics_74,x:1056.9708,y:48.9407}).wait(1).to({graphics:mask_graphics_75,x:1056.9708,y:48.9411}).wait(1).to({graphics:mask_graphics_76,x:1056.9709,y:48.9416}).wait(1).to({graphics:mask_graphics_77,x:1056.9456,y:48.9456}).wait(163));
+
 	// Layer_4
-	this.instance = new lib.Symbol3("synched",0);
-	this.instance.setTransform(732,56.05,0.54,0.54,0,0,0,640,50);
-	this.instance.alpha = 0;
+	this.instance = new lib.Symbol2("synched",0);
+	this.instance.setTransform(717.95,50,1,1,0,0,0,640,50);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(21).to({_off:false},0).to({scaleX:1,scaleY:1,x:640,y:50,alpha:1},21,cjs.Ease.cubicOut).wait(198));
+	var maskedShapeInstanceList = [this.instance];
 
-	// Layer_3
-	this.instance_1 = new lib.Symbol2("synched",0);
-	this.instance_1.setTransform(640,70,1,1,0,0,0,640,50);
-	this.instance_1.alpha = 0;
+	for(var shapedInstanceItr = 0; shapedInstanceItr < maskedShapeInstanceList.length; shapedInstanceItr++) {
+		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
+	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({y:50,alpha:1},22,cjs.Ease.cubicOut).wait(218));
-
-	// Layer_2
-	this.instance_2 = new lib.Symbol1("synched",0);
-	this.instance_2.setTransform(197.1,74,0.1423,0.1423,0,0,0,197.1,69.9);
-	this.instance_2.alpha = 0;
-	this.instance_2._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(63).to({_off:false},0).to({regY:70,scaleX:1,scaleY:1,y:70,alpha:1},18,cjs.Ease.backOut).wait(159));
-
-	// Layer_1
-	this.instance_3 = new lib.RogersandHolland_0001s_0005_EndorsedbyCourtneyCroninESPNReporter();
-
-	this.instance_4 = new lib.RogersandHolland_0001s_0004_Layer8();
-	this.instance_4.setTransform(-11,0);
-
-	this.instance_5 = new lib.RogersandHolland_0000s_0000_9cdb952fa9a54dd189692d165925a3be();
-
-	this.instance_6 = new lib.RogersandHolland_0000s_0005_fallpromoHPHerodesktop();
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3}]}).wait(240));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(30).to({_off:false},0).to({x:640},17,cjs.Ease.cubicOut).to({_off:true},30).wait(163));
 
 	// Layer_5
-	this.instance_7 = new lib._1280x100_1();
+	this.instance_1 = new lib.Symbol3("synched",0);
+	this.instance_1.setTransform(710.55,50,0.8305,0.8305,0,0,0,640.1,50);
+	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(240));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(60).to({_off:false},0).to({regX:640,scaleX:1,scaleY:1,x:640},17,cjs.Ease.cubicOut).wait(163));
+
+	// Layer_3
+	this.instance_2 = new lib.Symbol1("synched",0);
+	this.instance_2.setTransform(318,83,0.0676,1,0,0,0,317.9,83);
+	this.instance_2.alpha = 0;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({regX:318,scaleX:1,alpha:1},22,cjs.Ease.backOut).wait(218));
+
+	// Layer_2
+	this.instance_3 = new lib.HaymondLF_0000s_0002s_0001_Haymondlawhasrecoveredoverabilliondollarsfortheirclie();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(240));
+
+	// Layer_1
+	this.instance_4 = new lib.EditedHeadshotPaige();
+	this.instance_4.setTransform(747,-5,0.1893,0.1893);
+
+	this.instance_5 = new lib.HaymondLF_0002s_0001_JohnHaymond();
+	this.instance_5.setTransform(-5,-7);
+
+	this.instance_6 = new lib.HaymondLF_0000s_0000_GradientFill1();
+	this.instance_6.setTransform(0,1);
+
+	this.instance_7 = new lib.HaymondLF_0000s_0002_logo();
+	this.instance_7.setTransform(0,1);
+
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#14314F").s().p("EhknAIwIAAxfMDJPAAAIAARfg");
+	this.shape.setTransform(643.975,56.025);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.instance_7},{t:this.instance_6},{t:this.instance_5},{t:this.instance_4}]}).wait(240));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(623.4,43.9,748.4,76.1);
+p.nominalBounds = new cjs.Rectangle(610.6,43,758.9,69.1);
 // library properties:
 lib.properties = {
-	id: '06F1D1F36AC54C22982C70DBB030A240',
+	id: 'DEFE22DC9BA34CA6948CD485B591E201',
 	width: 1280,
 	height: 100,
 	fps: 30,
@@ -262,7 +324,7 @@ an.bootstrapCallback=function(fnCallback) {
 };
 
 an.compositions = an.compositions || {};
-an.compositions['06F1D1F36AC54C22982C70DBB030A240'] = {
+an.compositions['DEFE22DC9BA34CA6948CD485B591E201'] = {
 	getStage: function() { return exportRoot.stage; },
 	getLibrary: function() { return lib; },
 	getSpriteSheet: function() { return ss; },
